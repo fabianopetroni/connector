@@ -14,7 +14,10 @@ FTRACK_CONNECTED = True
 
 
 class Connector(object):
-    """docstring for Connector"""
+    """Class for Connector
+    Args:
+        user (Optional[str]): user name, and user system username if None
+    """
     def __init__(self, user=None):
         super(Connector, self).__init__()
 
